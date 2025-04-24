@@ -3,8 +3,8 @@ import Link from "next/link";
 import Image from "next/image";
 import { redirect } from "next/navigation";
 import { Button } from "@/components/ui/button";
-import { getCurrentUser } from "@/lib/acitons/auth.action";
-import { getFeedbackByInterviewId, getInterviewById } from "@/lib/acitons/general.action";
+import { getCurrentUser } from "@/lib/actions/auth.action";
+import { getFeedbackByInterviewId, getInterviewById } from "@/lib/actions/general.action";
 
 
 const Page = async ({ params }: RouteParams) => {

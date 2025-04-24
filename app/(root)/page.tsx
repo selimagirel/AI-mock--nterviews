@@ -1,7 +1,7 @@
 import InterviewCard from '@/components/InterviewCard'
 import { Button } from '@/components/ui/button'
-import { getCurrentUser } from '@/lib/acitons/auth.action'
-import { getInterviewsByUserId, getLatestInterviews } from '@/lib/acitons/general.action'
+import { getCurrentUser } from '@/lib/actions/auth.action'
+import { getInterviewsByUserId, getLatestInterviews } from '@/lib/actions/general.action'
 
 import Image from 'next/image'
 import Link from 'next/link'
